@@ -4,7 +4,7 @@
 
 2. 说明  
 假如应用系统需要支持多种登录方式如：口令认证、域认证（口令认证通常是去数据库中验证用户，而域认证则是需要到微软的域中验证用户）。那么自然的做法就是建立一个各种登录方式都适用的接口，如下图所示  
-![simplefactory](/resource/images/20151213/simplefactory.jpg)
+![simplefactory](simplefactory.jpg)
 
 #### Link
 - [源码地址](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/simplefactory)
