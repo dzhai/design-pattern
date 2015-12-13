@@ -17,5 +17,5 @@
 2) 使用Factory创建出所需的对象，通过创建的对象进行操作   
 
 #### Link
-- [源码地址](https://github.com/dzhai/Demo/tree/master/Designpattern/src/com/d/factory/factorymethod)
+- [源码地址](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/factorymethod)
 - [参考 java_my_life](http://www.cnblogs.com/java-my-life/archive/2012/03/25/2416227.html)
