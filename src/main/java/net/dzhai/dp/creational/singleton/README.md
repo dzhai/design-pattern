@@ -6,10 +6,9 @@
 饿汉式  
 双重加锁  
 内部类  
-枚举  
-
+枚举    
 ```
-	public class Singleton {
+public class Singleton {
 	
 		private static class SingletonHelper {
 			private static Singleton s = new Singleton();
@@ -18,7 +17,7 @@
 		public static Singleton4 getInstance() {
 			return SingletonHelper.s;
 		}
-	}
+}
 ```
 
 ### Link
