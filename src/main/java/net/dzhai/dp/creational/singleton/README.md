@@ -8,6 +8,19 @@
 内部类  
 枚举  
 
+```
+	public class Singleton {
+	
+		private static class SingletonHelper {
+			private static Singleton s = new Singleton();
+		}
+	
+		public static Singleton4 getInstance() {
+			return SingletonHelper.s;
+		}
+	}
+```
+
 ### Link
-- [源码地址](https://github.com/dzhai/Demo/tree/master/Designpattern/src/com/d/singleton)
+- [源码地址](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/singleton)
 - [参考](http://blog.csdn.net/m13666368773/article/details/7679343)
