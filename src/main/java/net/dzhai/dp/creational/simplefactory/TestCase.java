@@ -15,11 +15,11 @@ public class TestCase {
 		boolean bool = login.verify(name, password);
 		if (bool) {
 			/**
-			 * 业务逻辑
+			 * 涓氬姟閫昏緫
 			 */
 		} else {
 			/**
-			 * 业务逻辑
+			 * 涓氬姟閫昏緫
 			 */
 		}
 	}
@@ -33,11 +33,11 @@ public class TestCase {
 		boolean bool = login.verify(name, password);
 		if (bool) {
 			/**
-			 * 业务逻辑
+			 * 涓氬姟閫昏緫
 			 */
 		} else {
 			/**
-			 * 业务逻辑
+			 * 涓氬姟閫昏緫
 			 */
 		}
 	}

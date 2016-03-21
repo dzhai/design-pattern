@@ -2,6 +2,6 @@ package net.dzhai.dp.creational.simplefactory;
 
 public interface ILogin {
 
-	//登录验证
+	//登录认证
 	public boolean verify(String name,String password);
 }

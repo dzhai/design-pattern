@@ -11,7 +11,7 @@ public class LoginManager {
 		}else if("passcode".equals(type)){
 			return new DomainLogin();
 		}else{
-			throw new RuntimeException("没有找到登录类型");
+			throw new RuntimeException("娌℃湁鎵惧埌鐧诲綍绫诲瀷");
 		}
 		
 	}
