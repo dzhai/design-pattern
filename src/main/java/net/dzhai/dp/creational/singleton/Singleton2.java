@@ -1,15 +1,22 @@
 package net.dzhai.dp.creational.singleton;
 
-//懒汉式单例类
+/**
+ * 双重加锁
+ */
 public class Singleton2 {
 
-	private static Singleton2 s2 = null;
+	//volatile
+	private static volatile Singleton2 instance = null;
 
-	public synchronized Singleton2 getInstance() {
-		if (s2 == null) {
-			s2 = new Singleton2();
+	public Singleton2 getInstance() {
+		if (instance == null) {
+			synchronized (Singleton2.class) {
+				if (instance == null) {
+					instance = new Singleton2();
+				}
+			}
 		}
-		return s2;
+		return instance;
 	}
 
 }
