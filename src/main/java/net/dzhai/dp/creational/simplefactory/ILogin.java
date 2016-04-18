@@ -2,6 +2,6 @@ package net.dzhai.dp.creational.simplefactory;
 
 public interface ILogin {
 
-	//µÇÂ¼ÈÏÖ¤
+	//ç™»å½•éªŒè¯
 	public boolean verify(String name,String password);
 }

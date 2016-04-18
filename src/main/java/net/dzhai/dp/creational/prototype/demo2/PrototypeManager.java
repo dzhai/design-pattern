@@ -23,8 +23,7 @@ public class PrototypeManager {
 	 * @param prototype
 	 *            原型实例
 	 */
-	public synchronized static void setPrototype(String prototypeId,
-			Prototype prototype) {
+	public synchronized static void setPrototype(String prototypeId, Prototype prototype) {
 		map.put(prototypeId, prototype);
 	}
 
@@ -47,8 +46,7 @@ public class PrototypeManager {
 	 * @throws Exception
 	 *             如果原型编号对应的实例不存在，则抛出异常
 	 */
-	public synchronized static Prototype getPrototype(String prototypeId)
-			throws Exception {
+	public synchronized static Prototype getPrototype(String prototypeId) throws Exception {
 		Prototype prototype = map.get(prototypeId);
 		if (prototype == null) {
 			throw new Exception("您希望获取的原型还没有注册或已被销毁");

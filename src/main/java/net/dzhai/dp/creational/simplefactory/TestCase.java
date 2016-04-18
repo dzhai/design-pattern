@@ -1,7 +1,5 @@
 package net.dzhai.dp.creational.simplefactory;
 
-import java.text.DateFormat;
-
 import org.junit.Test;
 
 public class TestCase {
@@ -40,10 +38,5 @@ public class TestCase {
 			 * 业务逻辑
 			 */
 		}
-	}
-	
-	
-	public void test(){
-		
 	}
 }
