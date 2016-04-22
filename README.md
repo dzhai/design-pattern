@@ -1,7 +1,8 @@
-# 设计模式学习
-
-### [简单工厂](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/simplefactory)
-### [工厂方法](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/factorymethod)
-### [抽象工厂](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/abstractfactory)
-### [建造模式](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/builder)
-### [单例模式](https://github.com/dzhai/design-pattern/tree/master/src/main/java/net/dzhai/dp/creational/singleton)
+### 设计模式学习
+#### 创建模式
+1. 简单工厂(登录口令)
+2. 工厂方法(文件导出)
+3. 抽象工厂(电脑组装)
+4. 建造模式(整体逻辑和部分分开，发邮件)
+5. 单例模式(类的懒加载、双重加锁)
+6. 原型模式(对象的复制)
